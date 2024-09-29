@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\meli0\\OneDrive\\Documents\\GitHub\\BANCO\\Banco\\wwwroot\\css\\styleAdmin.css",
+      "PackagePath": "staticwebassets\\css\\styleAdmin.css"
+    },
+    {
       "Id": "C:\\Users\\meli0\\OneDrive\\Documents\\GitHub\\BANCO\\Banco\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
