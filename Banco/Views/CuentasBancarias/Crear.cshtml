@@ -1,0 +1,25 @@
+@model Banco.Models.CuentaBancaria
+
+<h1>Crear Cuenta Bancaria</h1>
+
+<form asp-action="Crear" method="post">
+    <div>
+        <label>Nombre del Titular</label>
+        <input asp-for="NombreTitular" required />
+    </div>
+    <div>
+        <label>Tipo de Cuenta</label>
+        <input asp-for="TipoCuenta" required />
+    </div>
+    <div>
+        <label>Saldo Inicial</label>
+        <input asp-for="SaldoInicial" type="number" required />
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" required />
+    </div>
+    <button type="submit">Crear Cuenta</button>
+</form>
+
+<a href="@Url.Action("Index")">Volver a la lista</a>

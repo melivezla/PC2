@@ -1,0 +1,26 @@
+@model IEnumerable<Banco.Models.CuentaBancaria>
+
+<h1>Lista de Cuentas Bancarias</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre del Titular</th>
+            <th>Tipo de Cuenta</th>
+            <th>Saldo Inicial</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cuenta in Model)
+        {
+            <tr>
+                <td>@cuenta.NombreTitular</td>
+                <td>@cuenta.TipoCuenta</td>
+                <td>@cuenta.SaldoInicial</td>
+                <td>@cuenta.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Crear")">Crear Nueva Cuenta</a>
