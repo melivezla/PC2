@@ -1,26 +1,44 @@
 @model IEnumerable<Banco.Models.CuentaBancaria>
 
-<h1>Lista de Cuentas Bancarias</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Nombre del Titular</th>
-            <th>Tipo de Cuenta</th>
-            <th>Saldo Inicial</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var cuenta in Model)
-        {
-            <tr>
-                <td>@cuenta.NombreTitular</td>
-                <td>@cuenta.TipoCuenta</td>
-                <td>@cuenta.SaldoInicial</td>
-                <td>@cuenta.Email</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/styleAdmin.css" />
+    <title>Listado de Cuentas Bancarias</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de Cuentas Bancarias</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre del Titular</th>
+                    <th>Tipo de Cuenta</th>
+                    <th>Saldo Inicial</th>
+                    <th>Email</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cuenta in Model)
+                {
+                    <tr>
+                        <td>@cuenta.NombreTitular</td>
+                        <td>@cuenta.TipoCuenta</td>
+                        <td>@cuenta.SaldoInicial</td>
+                        <td>@cuenta.Email</td>
+                        <td>
+                            <a href="@Url.Action("Editar", new { id = cuenta.Id })">Editar</a>
+                            <a href="@Url.Action("ConfirmarEliminar", new { id = cuenta.Id })">Eliminar</a> <!-- Cambiado a ConfirmarEliminar -->
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="@Url.Action("Crear")" class="btn">Crear Nueva Cuenta</a>
+    </div>
+</body>
+</html>
 
-<a href="@Url.Action("Crear")">Crear Nueva Cuenta</a>

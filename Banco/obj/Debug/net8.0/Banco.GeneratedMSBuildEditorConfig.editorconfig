@@ -18,8 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\meli0\OneDrive\Documents\GitHub\BANCO\Banco
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/meli0/OneDrive/Documents/GitHub/BANCO/Banco/Views/CuentasBancarias/ConfirmarEliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc0JhbmNhcmlhc1xDb25maXJtYXJFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/meli0/OneDrive/Documents/GitHub/BANCO/Banco/Views/CuentasBancarias/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc0JhbmNhcmlhc1xDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/meli0/OneDrive/Documents/GitHub/BANCO/Banco/Views/CuentasBancarias/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc0JhbmNhcmlhc1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/meli0/OneDrive/Documents/GitHub/BANCO/Banco/Views/CuentasBancarias/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc0JhbmNhcmlhc1xFbGltaW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/meli0/OneDrive/Documents/GitHub/BANCO/Banco/Views/CuentasBancarias/Index.cshtml]

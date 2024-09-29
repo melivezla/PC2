@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UMQ7HpRO2iORQqiw7m7oA12lzF8qw5Gp530ieYfQoCI=",
+  "Hash": "55LCKFa9AUUNg0k98HqWp24JY6uGDVWOFnZ2uNmS/LE=",
   "Source": "Banco",
   "BasePath": "_content/Banco",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\meli0\\OneDrive\\Documents\\GitHub\\BANCO\\Banco\\wwwroot\\css\\styleAdmin.css",
+      "SourceId": "Banco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meli0\\OneDrive\\Documents\\GitHub\\BANCO\\Banco\\wwwroot\\",
+      "BasePath": "_content/Banco",
+      "RelativePath": "css/styleAdmin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleAdmin.css"
     },
     {
       "Identity": "C:\\Users\\meli0\\OneDrive\\Documents\\GitHub\\BANCO\\Banco\\wwwroot\\favicon.ico",
