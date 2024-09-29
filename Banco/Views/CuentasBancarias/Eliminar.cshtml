@@ -1,0 +1,20 @@
+@model Banco.Models.CuentaBancaria
+
+@{
+    ViewData["Title"] = "Eliminar Cuenta Bancaria"; 
+}
+
+
+<link rel="stylesheet" href="~/css/styleAdmin.css" />
+
+<h1>Eliminar Cuenta Bancaria</h1>
+
+<div class="alert alert-warning">
+    <p>¿Está seguro de que desea eliminar la cuenta bancaria de <strong>@Model.NombreTitular</strong>?</p>
+</div>
+
+<form asp-action="Eliminar" method="post" class="form-container">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+</form>
