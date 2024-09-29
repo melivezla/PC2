@@ -35,3 +35,4 @@ C:\Users\meli0\OneDrive\Documents\GitHub\BANCO\Banco\obj\Debug\net8.0\refint\Ban
 C:\Users\meli0\OneDrive\Documents\GitHub\BANCO\Banco\obj\Debug\net8.0\Banco.pdb
 C:\Users\meli0\OneDrive\Documents\GitHub\BANCO\Banco\obj\Debug\net8.0\Banco.genruntimeconfig.cache
 C:\Users\meli0\OneDrive\Documents\GitHub\BANCO\Banco\obj\Debug\net8.0\ref\Banco.dll
+C:\Users\meli0\OneDrive\Documents\GitHub\BANCO\Banco\obj\Debug\net8.0\Banco.sourcelink.json
